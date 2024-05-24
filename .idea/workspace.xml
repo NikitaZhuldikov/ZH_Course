@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1effb3af-111e-47d2-ab71-321d5618444b" name="Changes" comment="Добавил idea/">
+      <change afterPath="$PROJECT_DIR$/tests/test_func.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-pay/OperationAmount.json" beforeDir="false" afterPath="$PROJECT_DIR$/utils/OperationAmount.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-pay/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-pay/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-pay/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/func.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_utils.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +47,8 @@
   "keyToString": {
     "Python tests.Python tests for test_func.test_loading_file.executor": "Run",
     "Python tests.Python tests for test_utils.test_loading_file.executor": "Run",
+    "Python tests.Python tests for test_utils.tests_loading_file.executor": "Run",
+    "Python tests.Python tests for tests.test_func.test_loading_file.executor": "Run",
     "Python tests.Python tests for tests.test_utils.test_loading_file.executor": "Run",
     "Python tests.Python tests in test_func.py.executor": "Run",
     "Python tests.Python tests in test_utils.py.executor": "Run",
@@ -53,11 +62,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\Course_pay\utils" />
       <recent name="C:\Users\User\PycharmProjects\Course_pay\course-pay" />
       <recent name="C:\Users\User\PycharmProjects\Course_pay\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_utils.test_loading_file">
+  <component name="RunManager" selected="Python tests.Python tests for test_func.test_loading_file">
     <configuration name="qwedfg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Course_pay" />
       <option name="ENV_FILES" value="" />
@@ -80,29 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Course_pay" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course-pay" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\User\PycharmProjects\Course_pay\course-pay\utils.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_utils.test_loading_file" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_func.test_loading_file" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Course_pay" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,7 +101,52 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_utils.test_loading_file&quot;" />
+      <option name="_new_target" value="&quot;test_func.test_loading_file&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_func" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Course_pay" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_func&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_func.test_loading_file" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Course_pay" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_func.test_loading_file&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_func.test_loading_file" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Course_pay" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_func.test_loading_file&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -132,7 +165,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.test_utils.test_loading_file" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_func.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Course_pay" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,32 +176,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_utils.test_loading_file&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_utils.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Course_pay" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_utils.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_func.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_utils.test_loading_file" />
-        <item itemvalue="Python tests.Python tests for tests.test_utils.test_loading_file" />
-        <item itemvalue="Python tests.Python tests in test_utils.py" />
-        <item itemvalue="Python.qwedfg" />
-        <item itemvalue="Python tests.Python tests for tests.test_utils.test_loading_file" />
+        <item itemvalue="Python tests.Python tests for test_func.test_loading_file" />
+        <item itemvalue="Python tests.Python tests for tests.test_func.test_loading_file" />
+        <item itemvalue="Python tests.Python tests for tests.test_func.test_loading_file" />
+        <item itemvalue="Python tests.Python tests for tests.test_func" />
+        <item itemvalue="Python tests.Python tests in test_func.py" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716551667142</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавил idea/">
+      <option name="closed" value="true" />
+      <created>1716586274271</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716586274271</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
