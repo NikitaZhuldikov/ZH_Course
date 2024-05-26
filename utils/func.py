@@ -22,7 +22,7 @@ def get_date(date):
     return datetime.strftime(obj_date, '%d.%m.%Y')
 
 def hidden_number(number):
-    """Разделил строки в отдельный список и значения"""
+    """Функция принимает номер карты и шифрует его"""
     requisites = number.split()
     if requisites[0] == "Счет":
         return "Счет **" + number[-4:]
