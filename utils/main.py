@@ -1,3 +1,3 @@
-from utils import get_main
+from func import get_main
 
 get_main()
