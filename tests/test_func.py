@@ -1,7 +1,7 @@
 from utils.func import loading_file
 import os
-from utils.config import ROOT_DIR
+from utils.config import TEST_PATH
 
 def test_loading_file():
-    test_path = os.path.join(ROOT_DIR, 'tests', 'test_operations.json')
-    assert loading_file(test_path) == []
+    file = os.path.join(TEST_PATH, 'test_operations.json')
+    assert loading_file(file) == []
