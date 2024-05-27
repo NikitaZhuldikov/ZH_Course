@@ -34,12 +34,9 @@ def get_summa(cheque):
     """Функция формирует сумму в соответствии с фильтрами"""
     return f"{cheque["operationAmount"]["amount"]} {cheque["operationAmount"]["currency"]["name"]}"
 
-
 def get_main(num_operations=5):
     """Функция выводит операцию"""
-    load_json = loading_file("OperationAmount.json")
-    filtration = filter_list(load_json)
-    sorting = sorts_date(filtration)
+    sorting = sorts_date(filter_list(loading_file("OperationAmount.json")))
     for operation in sorting:
         if num_operations == 0:
             break
